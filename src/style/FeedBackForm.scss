@@ -1,0 +1,38 @@
+/* FeedBackForm.scss */
+
+.ion-padding {
+    background-image: url('https://images.adsttc.com/media/images/60a1/2bf9/f043/cc2d/9818/162b/newsletter/screen-shot-2021-05-16-at-7-pm.jpg?1621175299'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    // background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* White text color */
+  }
+  
+  ion-card {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background to the card */
+  }
+  
+  ion-card-title {
+    color: #0e0101;
+  }
+  
+  ion-item {
+    margin-bottom: 20px;
+  }
+  
+  ion-input, ion-textarea {
+    border-radius: 8px;
+    --padding-start: 10px;
+  }
+  
+  ion-button {
+    --border-radius: 10px;
+    --background: #073d08;
+    --color: #84c810;
+    --padding-start: 20px;
+    --padding-end: 20px;
+  }
+  

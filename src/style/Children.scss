@@ -1,0 +1,84 @@
+// ChildrenArtSection.scss
+.children-art-section {
+    --ion-background-color: transparent; /* Make the background transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* White text color */
+  }
+  
+  .container {
+    display: flex;
+    // margin-top: 800px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .children-art-section ion-card {
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+  .children-art-section ion-card-title {
+    color: #4d028e; /* Purple color for card titles */
+  }
+  
+  .children-art-section ion-card-content {
+    color: #040000; /* Dark color for card content */
+  }
+  
+  .concept, .history-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .concept img, .history-element img {
+    width: 500px; /* Adjust the width of images as needed */
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .concept{
+    margin-bottom: 20;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ff8a00, #e52e71, #00bfff, #228b22);
+    background-size: 400% 400%;
+    animation: rainbow 8s linear infinite;
+    transition: transform 0.3s ease;
+  }
+
+  .button:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .para {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
